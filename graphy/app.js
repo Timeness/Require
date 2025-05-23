@@ -5,8 +5,8 @@ class BotService {
   static currentProcess = null;
   static langMap = {
     python: (entry) => ["python", [entry]],
-    js: (entry) => ["node", [entry]],
-    ts: (entry) => ["ts-node", [entry]],
+    javascript: (entry) => ["node", [entry]],
+    typescript: (entry) => ["ts-node", [entry]],
     ruby: (entry) => ["ruby", [entry]],
     java: (entry) => ["java", [entry]],
     lua: (entry) => ["lua", [entry]],
